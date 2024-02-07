@@ -5,12 +5,14 @@
     A tag <ol> ela é usada para criar uma lista ordenada. E dentro dela tem a tag <li> que cria os itens da lista.
     
     [FORMULÁRIOS]
+    ** Cada atributo desses têm significado diferente para os elementos html.**
     Formulários usam a tag de entrada de dados <input> e nela você consegue usar atributos, o (type) e o (name).
     O atributo type serve para definir o tipo de entrada e o name serve para passar os dados para uma proxima tela para o processamento de dados.
     O atributo button serve para criar um botão.
-    O atributo value define o texto para o botão.
+    O atributo value serve para especificar o valor de um elemento. O
     O atributo submit serve para você enviar a entrada de dados.
     O atributo action serve para definir para qual página os dados vão ser enviados.
+    O atributo radio serve para você escolher opções, para que o atributo radio funcione corretamente se usa o atributo name e o value juntos
 --->
 
 
@@ -43,5 +45,17 @@
         <input type="submit" value="logar">
 
     </form>
+    <h4>Cadastre-se</h4>
+    login:
+    <input type="text" name="login">
+    senha:
+    <input type="password" name="senha">
+    repita a senha:
+    <input type="password" name="senha">
+    <br>
+    sexo:
+    <input type="radio" name="sexo" value="m">
+    M
+    <input type="radio" name="sexo" value="f"> F
 </body>
 </html
