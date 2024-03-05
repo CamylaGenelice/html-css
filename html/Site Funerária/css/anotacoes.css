@@ -1,0 +1,12 @@
+/* Tem 3 maneiras de utilizar o css, que são as folhas de estilo.
+Inline style: Aplica a formatação direto no elemento.
+External style: Você cria uma pasta para guardar as formatações do site.
+Internal style: Você aplica o estilo direto no código.
+
+Para formatar uma tag basta você colocar ela abrir chaves, colocar a propriedade que você quer aplicar na tag e o seu valor junto com ponto e virgula.
+Você também pode criar uma classe para usar em varias tags ou em tag especificas.
+O ID só pode ser usado uma unica vez por página, ele serve para dar estrutura no site.
+*/
+a { color: #000000; }
+.cor{ color: #000000; } /* O ponto define que é uma classe*/
+#conteudo{  } /* O # define que é um id*/
