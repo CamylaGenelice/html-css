@@ -1,3 +1,8 @@
+<!--
+    As div são do tipo block que ocupam todo o espaço da tela.
+    O span agrupa seus alementos linha a linha, ele é inline.
+
+-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,13 +12,60 @@
         <style type="text/css">
             #topo{background:paleturquoise ;}
         
-            #img{image-orientation:width="70" height="70";}
+            #conteudo{background:pink;}
+            
+            .classe{
+                background:rgb(187, 72, 91);
+                padding: 2px;
+                margin: 12px;
+            }
+            .borda{
+                border-color: red rgb(5, 9, 214); /*Você consegue colocar cores diferentes na borda*/
+                border-width: 12px;
+                border-style: outset; /*Existe mais de 5 tipos de borda.*/
+                padding-top: 12px;
+            }
+
+            .cores{
+                color: rgb(82, 19, 184);
+                font-size: 22px; /*Tamanho da fonte*/
+                font-family: Georgia, 'Times New Roman', Times, serif; /*Tipos de fonte*/
+            }
 
         </style>
     </head>
     <body>
-        <div id="img">
-            <img src="imagens/olograma.jpg" alt="">
+        <div>
+            <img src="imagens/logo.png" alt="">
         </div>
+        <div id="conteudo">
+            <ul>
+                <li>www</li>
+                <li class="classe">wrew</li>
+                <li>wqa</li>
+                <li>wgf</li>
+                <li>whfg</li>
+            </ul>
+        </div>
+        <span style="background: rgb(42, 165, 144);">
+            Todos os direitos reservados
+        </span>
+        <span style="background: rgb(255, 77, 77);">
+            Todos os direitos reservados
+        </span>
+        <span style="background: rgb(105, 71, 197);">
+            Todos os direitos reservados
+        </span>
+        
+        <div class="borda">
+            hfj
+        </div>
+        
+        <div class="cores">
+            <p>
+                amor por favor nao desligue o telefone eu sou mulher e voce é o meu homem, amor por favor nao desligue o telefone
+            </p>
+        </div>
+    
     </body>
 </html>
